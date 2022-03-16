@@ -33,3 +33,7 @@ Computer Science 개인 학습 및 정리를 위한 공간입니다.
 [2. 개략적인 규모 추정](systemDesign/2장_개략적인_규모_추정.md)
 
 [3. 시스템 설계 면접 공략법](systemDesign/3장_시스템_설계_면접_공략법.md)
+
+[4. 처리율 제한 장치의 설계](systemDesign/4장_처리율_제한_장치의_설계.md)
+
+[5. 안정 해시 설계](systemDesign/5장_안정_해시_설계.md)
