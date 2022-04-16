@@ -39,9 +39,34 @@ API 엔드포인트, URL 리디렉션, URL 단축 플로우는 다음과 같다.
 
 ##### API 엔드포인트
 
+클라이언트는 서버가 제공하는 API 엔드포인트를 통해 서버와 통신한다. URL 단축키는 기본적으로 두 개의 엔드포인트를 필요로 한다.
 
+###### 1. URL 단축용 엔드포인트 
+
+- 단축 URL을 생성하고자 하는 클라이언트는 엔드포인트에 단축할 URL을 Parameter로 실어서 POST 요청을 보내야 한다. 이 엔드 포인트는 다음과 같은 형태를 띈다.
+
+  POST /api/v1/data/shorten
+
+  - Request Parameter: {longUrl: URLString}
+  - Response : 단축 URL
+
+###### 2. URL 디리렉션용 엔드포인트 
+
+- 단축 URL에 대해서 HTTP 요청이 오면 원래 URL로 보내주기 위한 용도의 엔드포인트
+
+  GET /api/v1/shortUrl
+
+  - Response: HTTP 리디렉션 목적지가 될 원래 URL
+
+    
 
 ##### URL 리디렉션
+
+브라우저에 단축 URL을 입력하면 단축 URL을 받은 서버는 그 URL을 원래 URL로 바꾸어서 301 응답의 Location 헤더에 넣어 반환한다.
+
+클라이언트와 서버 사이 통신 절차는 다음과 같다.
+
+
 
 
 
