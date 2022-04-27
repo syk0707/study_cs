@@ -37,3 +37,11 @@ Computer Science 개인 학습 및 정리를 위한 공간입니다.
 [4. 처리율 제한 장치의 설계](systemDesign/4장_처리율_제한_장치의_설계.md)
 
 [5. 안정 해시 설계](systemDesign/5장_안정_해시_설계.md)
+
+[6. 키값 저장소 설계](systemDesign/6장_키값_저장소_설계.md)
+
+[7. 분산 시스템을 위한 유일 ID 생성기 설계](systemDesign/7장_분산_시스템을_위한_유일_ID_생성기_설계.md)
+
+[8. URL 단축기 설계](systemDesign/8장_URL_단축기_설계.md)
+
+[10. 알림 시스템 설계](systemDesign/10장_알림_시스템_설계.md)
